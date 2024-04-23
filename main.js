@@ -1,14 +1,13 @@
-const myModule = require('./myModule');
-//const myModule = require('./myModule.js');
+const uti1 = require('./utilities/uti1.js');
 
-myModule.myFirstFunction(); // Output: "This is my first function"
-myModule.mySecondFunction(); // Output: "This is my second function"
+const uti2 = require('./utilities/uti2.js');
 
+let arr1 = [1,4,5,2,7,9];
 
-// using ES6 object destructuring, only myFirstFunction is available
-const { myFirstFunction } = require('./myModule');
-myFirstFunction(); // Output: "This is my first function"
+let arr2 = ['thai', 'quynh', 'hanh', 'thuong'];
 
-// use __dirname & __filename
-console.log(__dirname);   // prints 'D:\Learning\Javascript Fullstack\Project\NodeJsProj\NodeJS_Learn'
-console.log(__filename);  // prints 'D:\Learning\Javascript Fullstack\Project\NodeJsProj\NodeJS_Learn\main.js'
+console.log(uti1.sum(arr1));
+console.log(uti1.concat(arr1,arr1));
+
+console.log(uti2.lgNum(arr1));
+console.log(uti2.cut3(arr2));
