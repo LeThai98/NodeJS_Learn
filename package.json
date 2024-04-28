@@ -4,7 +4,7 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "prettier": "prettier --config .prettierrc 'src/**/*.js' --write"
+    "prettier": "prettier --single-quote --trailing-comma es5 --write \"src/**/*.js\""
   },
   "keywords": [],
   "author": "",
