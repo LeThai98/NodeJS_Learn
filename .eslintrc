@@ -1,0 +1,10 @@
+{
+    "rules": {
+      "no-var": "error",
+      "semi": ["error", "always"],
+      "no-console": "off",
+      "max-len": ["error", { "code": 80 }],
+      "no-case-declarations": "error"
+
+    }
+  }
