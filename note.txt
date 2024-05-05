@@ -1,0 +1,2 @@
+To check Generic and Promise , run: npm run build => check file main.ts and main.js
+
